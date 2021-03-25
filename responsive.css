@@ -1,0 +1,41 @@
+@media all and (max-width: 1000px) {
+    
+    .project{
+        width: 100%;
+        text-align: justify;
+        font-size: xx-large;   
+    }
+
+    .header ul li{
+        width: 70px;
+        margin: 10px;
+        font-size: medium;
+}
+}
+@media all and (max-width: 670px) {
+    .project{
+        width: 100%;
+        text-align: justify;
+        font-size: xx-large; 
+    }
+
+
+
+.header{
+display: none;
+}
+.menu-icon{
+    display:  block;
+  }
+  .header ul li{
+    width: 70px;
+    margin: 10px;
+    font-size: small;
+}
+.about_me img{
+    height: 300px;
+    width: 300px;
+   display:flexbox;
+  } 
+
+}

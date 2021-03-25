@@ -1,0 +1,101 @@
+ *{
+    box-sizing: border-box;
+  } 
+
+  body{
+   background-image: url('2.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0%;
+   /* height: 1000px; */
+   box-sizing: border-box;
+}
+.project{
+text-align: center;
+font-size:xx-large;
+color: black;S
+font-family:'Times New Roman', Times, serif  ;
+}
+.header{
+  
+  background-color:rgb(5, 78, 102) ;
+  font-family: 'Akaya Telivigala', cursive;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.header ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+
+}
+.header ul li{
+  width: 120px;
+  margin: 15px;
+  /* padding: 15px; */
+  inline-size: 100;
+
+}
+.header ul li a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.header ul li a:hover{
+  background-color:rgb(67, 140, 167) ;
+
+  
+}
+.container p{
+font-size: xx-large;
+font-family: 'Akaya Telivigala', cursive;
+text-align:justify ;
+}
+.container h1{
+  font-size: xx-large;
+  font-family: 'Akaya Telivigala', cursive;
+  text-align:justify ;
+  font-style: bold;
+  }
+  .about_me img{
+    height: 300px;
+    width: 300px;
+    float: right;
+  } 
+  .content{
+    list-style: none;
+    text-align:justify ;
+    font-size: x-large;
+    font-family: 'Akaya Telivigala', cursive;
+  }
+  
+  .Education{
+    text-decoration: underline;
+    color:red;
+  }
+  .Skills {
+    text-decoration: underline;
+    color:red ;
+  }
+  .Hobbies {
+    text-decoration: underline;
+    color: red;
+  }
+  .acievements {
+    text-decoration: underline;
+    color: red;
+  }
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display: none;
+  }
+  
